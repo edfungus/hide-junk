@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88EFDA442B0483FB0056E8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDA432B0483FB0056E8E9 /* AppDelegate.swift */; };
+		88EFDA462B0483FB0056E8E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDA452B0483FB0056E8E9 /* SceneDelegate.swift */; };
+		88EFDA492B0483FB0056E8E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA472B0483FB0056E8E9 /* LaunchScreen.storyboard */; };
+		88EFDA4C2B0483FB0056E8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA4A2B0483FB0056E8E9 /* Main.storyboard */; };
+		88EFDA552B0483FB0056E8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDA542B0483FB0056E8E9 /* AppDelegate.swift */; };
+		88EFDA582B0483FB0056E8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA562B0483FB0056E8E9 /* Main.storyboard */; };
+		88EFDA5F2B0483FB0056E8E9 /* hide-junk Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 88EFDA5E2B0483FB0056E8E9 /* hide-junk Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		88EFDA692B0483FB0056E8E9 /* hide-junk Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 88EFDA682B0483FB0056E8E9 /* hide-junk Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		88EFDA6F2B0483FB0056E8E9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA2A2B0483F90056E8E9 /* Main.html */; };
+		88EFDA702B0483FB0056E8E9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA2A2B0483F90056E8E9 /* Main.html */; };
+		88EFDA712B0483FB0056E8E9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA2C2B0483F90056E8E9 /* Icon.png */; };
+		88EFDA722B0483FB0056E8E9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA2C2B0483F90056E8E9 /* Icon.png */; };
+		88EFDA732B0483FB0056E8E9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA2D2B0483F90056E8E9 /* Style.css */; };
+		88EFDA742B0483FB0056E8E9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA2D2B0483F90056E8E9 /* Style.css */; };
+		88EFDA752B0483FB0056E8E9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA2E2B0483F90056E8E9 /* Script.js */; };
+		88EFDA762B0483FB0056E8E9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA2E2B0483F90056E8E9 /* Script.js */; };
+		88EFDA772B0483FB0056E8E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDA2F2B0483F90056E8E9 /* ViewController.swift */; };
+		88EFDA782B0483FB0056E8E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDA2F2B0483F90056E8E9 /* ViewController.swift */; };
+		88EFDA792B0483FB0056E8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA302B0483FB0056E8E9 /* Assets.xcassets */; };
+		88EFDA7A2B0483FB0056E8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA302B0483FB0056E8E9 /* Assets.xcassets */; };
+		88EFDA7B2B0483FB0056E8E9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDA322B0483FB0056E8E9 /* SafariWebExtensionHandler.swift */; };
+		88EFDA7C2B0483FB0056E8E9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFDA322B0483FB0056E8E9 /* SafariWebExtensionHandler.swift */; };
+		88EFDA7D2B0483FB0056E8E9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA342B0483FB0056E8E9 /* _locales */; };
+		88EFDA7E2B0483FB0056E8E9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA342B0483FB0056E8E9 /* _locales */; };
+		88EFDA7F2B0483FB0056E8E9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA352B0483FB0056E8E9 /* images */; };
+		88EFDA802B0483FB0056E8E9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA352B0483FB0056E8E9 /* images */; };
+		88EFDA812B0483FB0056E8E9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA362B0483FB0056E8E9 /* manifest.json */; };
+		88EFDA822B0483FB0056E8E9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA362B0483FB0056E8E9 /* manifest.json */; };
+		88EFDA832B0483FB0056E8E9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA372B0483FB0056E8E9 /* background.js */; };
+		88EFDA842B0483FB0056E8E9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA372B0483FB0056E8E9 /* background.js */; };
+		88EFDA852B0483FB0056E8E9 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA382B0483FB0056E8E9 /* content.js */; };
+		88EFDA862B0483FB0056E8E9 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA382B0483FB0056E8E9 /* content.js */; };
+		88EFDA872B0483FB0056E8E9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA392B0483FB0056E8E9 /* popup.html */; };
+		88EFDA882B0483FB0056E8E9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA392B0483FB0056E8E9 /* popup.html */; };
+		88EFDA892B0483FB0056E8E9 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA3A2B0483FB0056E8E9 /* popup.css */; };
+		88EFDA8A2B0483FB0056E8E9 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA3A2B0483FB0056E8E9 /* popup.css */; };
+		88EFDA8B2B0483FB0056E8E9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA3B2B0483FB0056E8E9 /* popup.js */; };
+		88EFDA8C2B0483FB0056E8E9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 88EFDA3B2B0483FB0056E8E9 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88EFDA602B0483FB0056E8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EFDA242B0483F90056E8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EFDA5D2B0483FB0056E8E9;
+			remoteInfo = "hide-junk Extension (iOS)";
+		};
+		88EFDA6A2B0483FB0056E8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EFDA242B0483F90056E8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EFDA672B0483FB0056E8E9;
+			remoteInfo = "hide-junk Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88EFDA922B0483FB0056E8E9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88EFDA5F2B0483FB0056E8E9 /* hide-junk Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA992B0483FB0056E8E9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88EFDA692B0483FB0056E8E9 /* hide-junk Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88EFDA2B2B0483F90056E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		88EFDA2C2B0483F90056E8E9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		88EFDA2D2B0483F90056E8E9 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		88EFDA2E2B0483F90056E8E9 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		88EFDA2F2B0483F90056E8E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88EFDA302B0483FB0056E8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88EFDA322B0483FB0056E8E9 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		88EFDA342B0483FB0056E8E9 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		88EFDA352B0483FB0056E8E9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		88EFDA362B0483FB0056E8E9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		88EFDA372B0483FB0056E8E9 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		88EFDA382B0483FB0056E8E9 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		88EFDA392B0483FB0056E8E9 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		88EFDA3A2B0483FB0056E8E9 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		88EFDA3B2B0483FB0056E8E9 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		88EFDA402B0483FB0056E8E9 /* hide-junk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hide-junk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFDA432B0483FB0056E8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88EFDA452B0483FB0056E8E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88EFDA482B0483FB0056E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88EFDA4B2B0483FB0056E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88EFDA4D2B0483FB0056E8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EFDA522B0483FB0056E8E9 /* hide-junk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hide-junk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFDA542B0483FB0056E8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88EFDA572B0483FB0056E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88EFDA592B0483FB0056E8E9 /* hide-junk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "hide-junk.entitlements"; sourceTree = "<group>"; };
+		88EFDA5E2B0483FB0056E8E9 /* hide-junk Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "hide-junk Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFDA632B0483FB0056E8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EFDA682B0483FB0056E8E9 /* hide-junk Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "hide-junk Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFDA6D2B0483FB0056E8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EFDA6E2B0483FB0056E8E9 /* hide-junk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "hide-junk.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88EFDA3D2B0483FB0056E8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA4F2B0483FB0056E8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA5B2B0483FB0056E8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA652B0483FB0056E8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88EFDA232B0483F90056E8E9 = {
+			isa = PBXGroup;
+			children = (
+				88EFDA282B0483F90056E8E9 /* Shared (App) */,
+				88EFDA312B0483FB0056E8E9 /* Shared (Extension) */,
+				88EFDA422B0483FB0056E8E9 /* iOS (App) */,
+				88EFDA532B0483FB0056E8E9 /* macOS (App) */,
+				88EFDA622B0483FB0056E8E9 /* iOS (Extension) */,
+				88EFDA6C2B0483FB0056E8E9 /* macOS (Extension) */,
+				88EFDA412B0483FB0056E8E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88EFDA282B0483F90056E8E9 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA2F2B0483F90056E8E9 /* ViewController.swift */,
+				88EFDA302B0483FB0056E8E9 /* Assets.xcassets */,
+				88EFDA292B0483F90056E8E9 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		88EFDA292B0483F90056E8E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA2A2B0483F90056E8E9 /* Main.html */,
+				88EFDA2C2B0483F90056E8E9 /* Icon.png */,
+				88EFDA2D2B0483F90056E8E9 /* Style.css */,
+				88EFDA2E2B0483F90056E8E9 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88EFDA312B0483FB0056E8E9 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA322B0483FB0056E8E9 /* SafariWebExtensionHandler.swift */,
+				88EFDA332B0483FB0056E8E9 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		88EFDA332B0483FB0056E8E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA342B0483FB0056E8E9 /* _locales */,
+				88EFDA352B0483FB0056E8E9 /* images */,
+				88EFDA362B0483FB0056E8E9 /* manifest.json */,
+				88EFDA372B0483FB0056E8E9 /* background.js */,
+				88EFDA382B0483FB0056E8E9 /* content.js */,
+				88EFDA392B0483FB0056E8E9 /* popup.html */,
+				88EFDA3A2B0483FB0056E8E9 /* popup.css */,
+				88EFDA3B2B0483FB0056E8E9 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88EFDA412B0483FB0056E8E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA402B0483FB0056E8E9 /* hide-junk.app */,
+				88EFDA522B0483FB0056E8E9 /* hide-junk.app */,
+				88EFDA5E2B0483FB0056E8E9 /* hide-junk Extension.appex */,
+				88EFDA682B0483FB0056E8E9 /* hide-junk Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88EFDA422B0483FB0056E8E9 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA432B0483FB0056E8E9 /* AppDelegate.swift */,
+				88EFDA452B0483FB0056E8E9 /* SceneDelegate.swift */,
+				88EFDA472B0483FB0056E8E9 /* LaunchScreen.storyboard */,
+				88EFDA4A2B0483FB0056E8E9 /* Main.storyboard */,
+				88EFDA4D2B0483FB0056E8E9 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		88EFDA532B0483FB0056E8E9 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA542B0483FB0056E8E9 /* AppDelegate.swift */,
+				88EFDA562B0483FB0056E8E9 /* Main.storyboard */,
+				88EFDA592B0483FB0056E8E9 /* hide-junk.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		88EFDA622B0483FB0056E8E9 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA632B0483FB0056E8E9 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		88EFDA6C2B0483FB0056E8E9 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				88EFDA6D2B0483FB0056E8E9 /* Info.plist */,
+				88EFDA6E2B0483FB0056E8E9 /* hide-junk.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88EFDA3F2B0483FB0056E8E9 /* hide-junk (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EFDA932B0483FB0056E8E9 /* Build configuration list for PBXNativeTarget "hide-junk (iOS)" */;
+			buildPhases = (
+				88EFDA3C2B0483FB0056E8E9 /* Sources */,
+				88EFDA3D2B0483FB0056E8E9 /* Frameworks */,
+				88EFDA3E2B0483FB0056E8E9 /* Resources */,
+				88EFDA922B0483FB0056E8E9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EFDA612B0483FB0056E8E9 /* PBXTargetDependency */,
+			);
+			name = "hide-junk (iOS)";
+			productName = "hide-junk (iOS)";
+			productReference = 88EFDA402B0483FB0056E8E9 /* hide-junk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88EFDA512B0483FB0056E8E9 /* hide-junk (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EFDA9A2B0483FB0056E8E9 /* Build configuration list for PBXNativeTarget "hide-junk (macOS)" */;
+			buildPhases = (
+				88EFDA4E2B0483FB0056E8E9 /* Sources */,
+				88EFDA4F2B0483FB0056E8E9 /* Frameworks */,
+				88EFDA502B0483FB0056E8E9 /* Resources */,
+				88EFDA992B0483FB0056E8E9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EFDA6B2B0483FB0056E8E9 /* PBXTargetDependency */,
+			);
+			name = "hide-junk (macOS)";
+			productName = "hide-junk (macOS)";
+			productReference = 88EFDA522B0483FB0056E8E9 /* hide-junk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88EFDA5D2B0483FB0056E8E9 /* hide-junk Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EFDA8F2B0483FB0056E8E9 /* Build configuration list for PBXNativeTarget "hide-junk Extension (iOS)" */;
+			buildPhases = (
+				88EFDA5A2B0483FB0056E8E9 /* Sources */,
+				88EFDA5B2B0483FB0056E8E9 /* Frameworks */,
+				88EFDA5C2B0483FB0056E8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hide-junk Extension (iOS)";
+			productName = "hide-junk Extension (iOS)";
+			productReference = 88EFDA5E2B0483FB0056E8E9 /* hide-junk Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		88EFDA672B0483FB0056E8E9 /* hide-junk Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EFDA962B0483FB0056E8E9 /* Build configuration list for PBXNativeTarget "hide-junk Extension (macOS)" */;
+			buildPhases = (
+				88EFDA642B0483FB0056E8E9 /* Sources */,
+				88EFDA652B0483FB0056E8E9 /* Frameworks */,
+				88EFDA662B0483FB0056E8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hide-junk Extension (macOS)";
+			productName = "hide-junk Extension (macOS)";
+			productReference = 88EFDA682B0483FB0056E8E9 /* hide-junk Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88EFDA242B0483F90056E8E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					88EFDA3F2B0483FB0056E8E9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					88EFDA512B0483FB0056E8E9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					88EFDA5D2B0483FB0056E8E9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					88EFDA672B0483FB0056E8E9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 88EFDA272B0483F90056E8E9 /* Build configuration list for PBXProject "hide-junk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88EFDA232B0483F90056E8E9;
+			productRefGroup = 88EFDA412B0483FB0056E8E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88EFDA3F2B0483FB0056E8E9 /* hide-junk (iOS) */,
+				88EFDA512B0483FB0056E8E9 /* hide-junk (macOS) */,
+				88EFDA5D2B0483FB0056E8E9 /* hide-junk Extension (iOS) */,
+				88EFDA672B0483FB0056E8E9 /* hide-junk Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88EFDA3E2B0483FB0056E8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFDA712B0483FB0056E8E9 /* Icon.png in Resources */,
+				88EFDA492B0483FB0056E8E9 /* LaunchScreen.storyboard in Resources */,
+				88EFDA6F2B0483FB0056E8E9 /* Main.html in Resources */,
+				88EFDA752B0483FB0056E8E9 /* Script.js in Resources */,
+				88EFDA792B0483FB0056E8E9 /* Assets.xcassets in Resources */,
+				88EFDA4C2B0483FB0056E8E9 /* Main.storyboard in Resources */,
+				88EFDA732B0483FB0056E8E9 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA502B0483FB0056E8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFDA722B0483FB0056E8E9 /* Icon.png in Resources */,
+				88EFDA742B0483FB0056E8E9 /* Style.css in Resources */,
+				88EFDA582B0483FB0056E8E9 /* Main.storyboard in Resources */,
+				88EFDA762B0483FB0056E8E9 /* Script.js in Resources */,
+				88EFDA7A2B0483FB0056E8E9 /* Assets.xcassets in Resources */,
+				88EFDA702B0483FB0056E8E9 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA5C2B0483FB0056E8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFDA832B0483FB0056E8E9 /* background.js in Resources */,
+				88EFDA892B0483FB0056E8E9 /* popup.css in Resources */,
+				88EFDA872B0483FB0056E8E9 /* popup.html in Resources */,
+				88EFDA7F2B0483FB0056E8E9 /* images in Resources */,
+				88EFDA812B0483FB0056E8E9 /* manifest.json in Resources */,
+				88EFDA7D2B0483FB0056E8E9 /* _locales in Resources */,
+				88EFDA852B0483FB0056E8E9 /* content.js in Resources */,
+				88EFDA8B2B0483FB0056E8E9 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA662B0483FB0056E8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFDA842B0483FB0056E8E9 /* background.js in Resources */,
+				88EFDA8A2B0483FB0056E8E9 /* popup.css in Resources */,
+				88EFDA882B0483FB0056E8E9 /* popup.html in Resources */,
+				88EFDA802B0483FB0056E8E9 /* images in Resources */,
+				88EFDA822B0483FB0056E8E9 /* manifest.json in Resources */,
+				88EFDA7E2B0483FB0056E8E9 /* _locales in Resources */,
+				88EFDA862B0483FB0056E8E9 /* content.js in Resources */,
+				88EFDA8C2B0483FB0056E8E9 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88EFDA3C2B0483FB0056E8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFDA772B0483FB0056E8E9 /* ViewController.swift in Sources */,
+				88EFDA442B0483FB0056E8E9 /* AppDelegate.swift in Sources */,
+				88EFDA462B0483FB0056E8E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA4E2B0483FB0056E8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFDA782B0483FB0056E8E9 /* ViewController.swift in Sources */,
+				88EFDA552B0483FB0056E8E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA5A2B0483FB0056E8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFDA7B2B0483FB0056E8E9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFDA642B0483FB0056E8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFDA7C2B0483FB0056E8E9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88EFDA612B0483FB0056E8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EFDA5D2B0483FB0056E8E9 /* hide-junk Extension (iOS) */;
+			targetProxy = 88EFDA602B0483FB0056E8E9 /* PBXContainerItemProxy */;
+		};
+		88EFDA6B2B0483FB0056E8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EFDA672B0483FB0056E8E9 /* hide-junk Extension (macOS) */;
+			targetProxy = 88EFDA6A2B0483FB0056E8E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88EFDA2A2B0483F90056E8E9 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EFDA2B2B0483F90056E8E9 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		88EFDA472B0483FB0056E8E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EFDA482B0483FB0056E8E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		88EFDA4A2B0483FB0056E8E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EFDA4B2B0483FB0056E8E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88EFDA562B0483FB0056E8E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EFDA572B0483FB0056E8E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88EFDA8D2B0483FB0056E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88EFDA8E2B0483FB0056E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		88EFDA902B0483FB0056E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S43HU84V6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hide-junk Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adventureswithedmund.hide-junk.Extension";
+				PRODUCT_NAME = "hide-junk Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88EFDA912B0483FB0056E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S43HU84V6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hide-junk Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adventureswithedmund.hide-junk.Extension";
+				PRODUCT_NAME = "hide-junk Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88EFDA942B0483FB0056E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S43HU84V6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hide-junk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adventureswithedmund.hide-junk";
+				PRODUCT_NAME = "hide-junk";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88EFDA952B0483FB0056E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S43HU84V6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hide-junk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adventureswithedmund.hide-junk";
+				PRODUCT_NAME = "hide-junk";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88EFDA972B0483FB0056E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/hide-junk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S43HU84V6Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hide-junk Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adventureswithedmund.hide-junk.Extension";
+				PRODUCT_NAME = "hide-junk Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88EFDA982B0483FB0056E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/hide-junk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S43HU84V6Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hide-junk Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adventureswithedmund.hide-junk.Extension";
+				PRODUCT_NAME = "hide-junk Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		88EFDA9B2B0483FB0056E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/hide-junk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S43HU84V6Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "hide-junk";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adventureswithedmund.hide-junk";
+				PRODUCT_NAME = "hide-junk";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88EFDA9C2B0483FB0056E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/hide-junk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S43HU84V6Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "hide-junk";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adventureswithedmund.hide-junk";
+				PRODUCT_NAME = "hide-junk";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88EFDA272B0483F90056E8E9 /* Build configuration list for PBXProject "hide-junk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFDA8D2B0483FB0056E8E9 /* Debug */,
+				88EFDA8E2B0483FB0056E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EFDA8F2B0483FB0056E8E9 /* Build configuration list for PBXNativeTarget "hide-junk Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFDA902B0483FB0056E8E9 /* Debug */,
+				88EFDA912B0483FB0056E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EFDA932B0483FB0056E8E9 /* Build configuration list for PBXNativeTarget "hide-junk (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFDA942B0483FB0056E8E9 /* Debug */,
+				88EFDA952B0483FB0056E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EFDA962B0483FB0056E8E9 /* Build configuration list for PBXNativeTarget "hide-junk Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFDA972B0483FB0056E8E9 /* Debug */,
+				88EFDA982B0483FB0056E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EFDA9A2B0483FB0056E8E9 /* Build configuration list for PBXNativeTarget "hide-junk (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFDA9B2B0483FB0056E8E9 /* Debug */,
+				88EFDA9C2B0483FB0056E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88EFDA242B0483F90056E8E9 /* Project object */;
+}
