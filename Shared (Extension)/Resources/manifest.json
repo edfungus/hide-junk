@@ -11,16 +11,14 @@
         "256": "images/icon-256.png",
         "512": "images/icon-512.png"
     },
-    "background": {
-        "service_worker": "background.js"
-    },
     "content_scripts": [
         {
             "js": [
                 "content.js"
             ],
             "matches": [
-                "*://youtube.com/*"
+                "*://www.youtube.com/*",
+                "*://www.google.com/*"
             ]
         }
     ],
@@ -35,5 +33,7 @@
             "72": "images/toolbar-icon-72.png"
         }
     },
-    "permissions": []
+    "permissions": [
+        "storage"
+    ]
 }

@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
+    <title>Hide Junk</title>
+    <style>
+        body {
+            min-width: 400px;
+        }
+
+        #settings {
+            margin-bottom: 10px;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .setting {
+            display: flex;
+            flex-direction: column;
+        }
+
+        textarea {
+            width: 100%;
+        }
+    </style>
 </head>
+
 <body>
-    <strong>Hello World!</strong>
+    <h3>Hide Junk Settings</h3>
+    <div id="settings">
+        <div class="setting">
+            Google websites
+            <textarea id="google-ids" rows="3" name="google ids"
+                placeholder="Exact match. Enter what you want to hide separated by new lines"></textarea>
+        </div>
+        <div class="setting">
+            Youtube channels (YouTube) and users (@YouTube)
+            <textarea id="youtube-ids" rows="3" name="youtube ids"
+                placeholder="Exact match. Enter what you want to hide separated by new lines"></textarea>
+        </div>
+    </div>
+
+    <div id="status"></div>
+    <button id="save">Save</button>
+
+    <script src="popup.js"></script>
 </body>
+
 </html>
