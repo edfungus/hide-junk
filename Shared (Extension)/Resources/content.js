@@ -63,7 +63,7 @@ const host = window.location.hostname
 
 if (host == "www.google.com") {
     getBlockedIDsForSite(host, (blockedIDs) => {
-        if (!blockedIDs) {
+        if (!blockedIDs || blockedIDs.length == 0) {
             return
         }
         console.log(blockedIDs)
@@ -79,7 +79,7 @@ if (host == "www.google.com") {
 
 if (host == "www.youtube.com") {
     getBlockedIDsForSite(host, (blockedIDs) => {
-        if (!blockedIDs) {
+        if (!blockedIDs || blockedIDs.length == 0) {
             return
         }
 
